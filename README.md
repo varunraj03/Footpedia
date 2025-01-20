@@ -1,6 +1,6 @@
 
 # Project Title
-Welcome to Footpedia! This blog was created by Varun Raj as a personal project to share his thoughts and football knowledge with the world.
+Welcome to Footpedia! This blog was created by Varun Raj as a personal project to share his thoughts and football news with the world.
 
 On this website, you'll find weekly articles and updates of the current happenings in the football world .
 

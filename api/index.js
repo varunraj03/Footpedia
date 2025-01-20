@@ -13,8 +13,8 @@ dotenv.config();
 
 //varunrajtonk
 //2OYdvXiFCpY9Ncrc
-mongoose
-  .connect("mongodb+srv://sahilchauksey:sahilchauksey@cluster0.uyw10bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+// mongoose
+  mongoose.connect("mongodb+srv://varunrajtonk:varunrajtonk@cluster0.0whvp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => {
     console.log('MongoDb is connected');
   })
@@ -52,3 +52,4 @@ app.use((err, req, res, next) => {
     message,
   });
 });
+// http://localhost:5173/dashboard?tab=profile   =admin
