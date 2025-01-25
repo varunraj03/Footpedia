@@ -72,7 +72,7 @@ export const signin = async (req, res, next) => {
 
 export const google = async (req, res, next) => {
   const { email, name, googlePhotoUrl } = req.body;
-  const bigsecret="12345678"
+  const bigsecret="12345678"  
   try {
     const user = await User.findOne({ email });
     if (user) {

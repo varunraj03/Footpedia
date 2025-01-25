@@ -1,5 +1,8 @@
 import { Button } from 'flowbite-react';
 
+// this page is to go to the official website of FourFourTwo
+
+
 export default function CallToAction() {
   return (
     <div className='flex flex-col sm:flex-row p-3 border border-teal-500 justify-center items-center rounded-tl-3xl rounded-br-3xl text-center'>
