@@ -41,8 +41,8 @@ app.use('/api/comment', commentRoutes);
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('*', (req, res) => {
-  // res.sendFile(path.join(__dirname, '../client/dist/index.html'));
-  res.sendFile(path.join(process.cwd(),'client','dist','index.html')  );
+  res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+  // res.sendFile(path.join(process.cwd(),'client','dist','index.html')  );
 });
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
@@ -53,4 +53,3 @@ app.use((err, req, res, next) => {
     message,
   });
 });
-// http://localhost:5173/dashboard?tab=profile   =admin
